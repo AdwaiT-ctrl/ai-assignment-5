@@ -1,0 +1,39 @@
+{
+  "name": "lora-r16",
+  "config": {
+    "name": "lora-r16",
+    "model": "gpt2-medium",
+    "mode": "lora",
+    "rank": 16,
+    "alpha": 32,
+    "targets": [
+      "c_attn",
+      "c_proj",
+      "c_fc"
+    ],
+    "lr": 0.0002,
+    "weight_decay": 0.0,
+    "epochs": 1,
+    "batch": 16,
+    "warmup_steps": 100,
+    "grad_clip": 1.0,
+    "seed": 1337
+  },
+  "params": 412577792,
+  "trainable": 6291456,
+  "steps": 2629,
+  "epochs": 1.0,
+  "tokens_seen": 3534880,
+  "seconds": 184.21995568275452,
+  "steps_per_second": 14.270983782709216,
+  "train_loss_last50": 1.1802075481414795,
+  "dev_loss": 1.0501645468175411,
+  "memory": {
+    "params": 1650311168,
+    "grads": 25165824,
+    "optimizer": 50331648,
+    "measured_peak": 5409432064,
+    "activations_residual": 3683623424
+  },
+  "device": "NVIDIA A40"
+}

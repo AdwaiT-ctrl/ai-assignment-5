@@ -1,0 +1,38 @@
+{
+  "name": "lora-r4",
+  "split": "test",
+  "n_mrs": 630,
+  "bleu": 61.560532815569566,
+  "bleu_signature": "BLEU|True = 61.56 88.8/71.9/55.0/40.9 (BP = 1.000 ratio = 1.039 hyp_len = 19204 ref_len = 18491)",
+  "slot_coverage": 0.9711602951039571,
+  "mean_output_tokens": 33.74126984126984,
+  "generation_seconds": 255.83097910881042,
+  "samples": [
+    {
+      "mr": "name[Blue Spice], eatType[coffee shop], area[city centre]",
+      "output": "Blue Spice is a coffee shop in the city centre.",
+      "reference": "A coffee shop in the city centre area called Blue Spice."
+    },
+    {
+      "mr": "name[Blue Spice], eatType[coffee shop], area[riverside]",
+      "output": "Blue Spice is a coffee shop in the riverside area.",
+      "reference": "There is a coffee shop Blue Spice in the riverside area."
+    },
+    {
+      "mr": "name[Blue Spice], eatType[coffee shop], customer rating[5 out of 5], near[Crowne Plaza Hotel]",
+      "output": "Blue Spice is a coffee shop near Crowne Plaza Hotel. It has a 5 out of 5 customer rating.",
+      "reference": "The coffee shop Blue Spice is based near Crowne Plaza Hotel and has a high customer rating of 5 out of 5."
+    },
+    {
+      "mr": "name[Blue Spice], eatType[coffee shop], customer rating[average], near[Burger King]",
+      "output": "Blue Spice is a coffee shop with an average customer rating. It is located near Burger King.",
+      "reference": "Burger King is near the coffee shop Blue Spice which has an average customer rating."
+    },
+    {
+      "mr": "name[Blue Spice], eatType[coffee shop], customer rating[average], near[Crowne Plaza Hotel]",
+      "output": "Blue Spice is a coffee shop near the Crowne Plaza Hotel. It has an average customer rating.",
+      "reference": "Crowne Plaza Hotel has a coffee shop nearby with an average customer rating called Blue Spice."
+    }
+  ],
+  "fineweb_val_loss": 3.1363181400299074
+}

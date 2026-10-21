@@ -1,0 +1,38 @@
+{
+  "name": "gpt2-medium",
+  "split": "test",
+  "n_mrs": 630,
+  "bleu": 9.471065736738367,
+  "bleu_signature": "BLEU|True = 9.47 30.6/12.9/6.5/3.1 (BP = 1.000 ratio = 1.728 hyp_len = 36230 ref_len = 20971)",
+  "slot_coverage": 0.3393695506371563,
+  "mean_output_tokens": 62.91111111111111,
+  "generation_seconds": 467.4796974658966,
+  "samples": [
+    {
+      "mr": "name[Blue Spice], eatType[coffee shop], area[city centre]",
+      "output": "Description:\nDescription:\nDescription:\nDescription:\nDescription:\nDescription:\nDescription:\nDescription:\nDescription:\nDescription:\nDescription:\nDescription:\nDescription:\nDescription:\nDescription:\nDescription:\nDescription:\nDescription:\nDescription:\nDescription:\nDescription:",
+      "reference": "A coffee shop in the city centre area called Blue Spice."
+    },
+    {
+      "mr": "name[Blue Spice], eatType[coffee shop], area[riverside]",
+      "output": "Description:\nDescription:\nDescription:\nDescription:\nDescription:\nDescription:\nDescription:\nDescription:\nDescription:\nDescription:\nDescription:\nDescription:\nDescription:\nDescription:\nDescription:\nDescription:\nDescription:\nDescription:\nDescription:\nDescription:\nDescription:",
+      "reference": "There is a coffee shop Blue Spice in the riverside area."
+    },
+    {
+      "mr": "name[Blue Spice], eatType[coffee shop], customer rating[5 out of 5], near[Crowne Plaza Hotel]",
+      "output": "The restaurant is located in the heart of the city, in the heart of the city. The restaurant is located in the heart of the city, in the heart of the city.\nDescription:\nThe restaurant is located in the heart of the city, in the heart of the city. The restaurant is located in",
+      "reference": "The coffee shop Blue Spice is based near Crowne Plaza Hotel and has a high customer rating of 5 out of 5."
+    },
+    {
+      "mr": "name[Blue Spice], eatType[coffee shop], customer rating[average], near[Burger King]",
+      "output": "The description of the restaurant is a bit vague, but it's a coffee shop.\nThe restaurant is located in the same area as the Burger King.\nThe description of the restaurant is a bit vague, but it's a coffee shop.\nThe description of the restaurant is a bit vague, but it's",
+      "reference": "Burger King is near the coffee shop Blue Spice which has an average customer rating."
+    },
+    {
+      "mr": "name[Blue Spice], eatType[coffee shop], customer rating[average], near[Crowne Plaza Hotel]",
+      "output": "The restaurant is located in the heart of the city, in the heart of the city. The restaurant is located in the heart of the city, in the heart of the city.\nDescription:\nThe restaurant is located in the heart of the city, in the heart of the city. The restaurant is located in",
+      "reference": "Crowne Plaza Hotel has a coffee shop nearby with an average customer rating called Blue Spice."
+    }
+  ],
+  "fineweb_val_loss": 3.016631078720093
+}

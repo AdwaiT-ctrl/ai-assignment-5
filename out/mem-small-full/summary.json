@@ -1,0 +1,32 @@
+{
+  "name": "mem-small-full",
+  "config": {
+    "name": "gpt2-small-full",
+    "model": "gpt2",
+    "mode": "full",
+    "lr": 5e-05,
+    "weight_decay": 0.0,
+    "epochs": 1,
+    "batch": 16,
+    "warmup_steps": 100,
+    "grad_clip": 1.0,
+    "seed": 1337
+  },
+  "params": 163037184,
+  "trainable": 163037184,
+  "steps": 50,
+  "epochs": 0.01901863826550019,
+  "tokens_seen": 65344,
+  "seconds": 3.0043153762817383,
+  "steps_per_second": 16.64272679051492,
+  "train_loss_last50": 2.185209050178528,
+  "dev_loss": 1.5287798941135406,
+  "memory": {
+    "params": 652148736,
+    "grads": 652148736,
+    "optimizer": 1304297472,
+    "measured_peak": 4111088640,
+    "activations_residual": 1502493696
+  },
+  "device": "NVIDIA A40"
+}
